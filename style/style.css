@@ -161,15 +161,16 @@ h3 {
 }
 
 div.name {
-    margin-left: 320px;
     text-align: center;
     height: 0;
 }
 
 div.name > h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.8em;
-    padding: 25px;
+    font-size: 3.2em;
+    padding: 95px;
+    margin-left: 300px;
+
 }
 
 a {
@@ -192,89 +193,93 @@ footer {
 }
 
 @media (max-width: 768px) {
-
     body {
         overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     main {
         width: 100%;
-        min-height: auto;
-        padding: 0 10px;
+        padding: 0;
         box-sizing: border-box;
     }
 
-    .container {
-        width: 100%;
-        min-height: auto;
+    .container, .container2 {
+        display: flex;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0px;
         align-items: center;
-    }
-
-    section.container > img {
-        width: 120%;
-        max-width: 355px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-
-    section.info {
-        width: 95%;
-        margin-top: 0px;
-        margin-bottom: 150px;
-    }
-     section.perfil {
-        width: 95%;
-        margin-top: 30px;
-        margin-bottom: 90px;
-    }
-    section.education {
-        width: 95%;
-        margin-top: 60px;
-        margin-bottom: 280px;
-    }
-
-    .container2 {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-top: 30px;
-        padding: 10px;
-        align-items: stretch;
+        justify-content: center;
     }
 
     div.name {
-        margin-left: 0;
-        height: auto;
+        width: 100%;
+        height: 100px !important;
+        margin: 0 !important;
+        padding: 0 !important;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+
     }
 
     div.name > h1 {
-        font-size: 2em;
-        padding: 10px 0;
-    }
-
-    section.expe {
         width: 100%;
-        margin-top: 15px;
-    }
-
-    section.expe > p {
+        font-size: 1.5em;
+        text-align: center;
         margin: 0;
-        font-size: 1.1em;
-        padding: 10px;
+        
     }
 
+    section.container > img {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+        position: static;
+    }
+
+    section.info,
+    section.perfil,
+    section.education,
+    section.expe,
     div.frases1,
     div.frases2,
     div.frases3,
     div.frases4 {
-        width: 100%;
-        height: auto;
-        margin-top: 15px;
-        padding: 8px;
+        width: 90% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        margin: 10px auto !important;
+        padding: 15px !important;
+        position: static !important;
+        display: block;
         box-sizing: border-box;
+        text-align: center;
+    }
+
+    section h2, .info h2, .perfil h2, .education h2, .expe h2 {
+        margin: 0 0 10px 0;
+        padding: 5px;
+        position: static;
+    }
+
+    p, li {
+        margin: 5px 0;
+        line-height: 1.4;
+    }
+
+    section.expe ul {
+        display: inline-block;
+        text-align: left;
+        padding-left: 20px;
+        margin: 0 auto;
     }
 }
