@@ -30,7 +30,7 @@ main {
     height: 1000px;
     width: 100px;
     margin-left: 305px;
-    margin-top: -480px;
+    margin-top: -600px;
     display: flex;
     flex-flow: column wrap;
     justify-content: stretch;
@@ -41,7 +41,7 @@ main {
 section.container > img {
     display: block;
     width: 295px;
-    margin: 0 0 40px;
+    margin: 0 0 38px;
 }
 
 section.info {
@@ -162,7 +162,6 @@ h3 {
 
 div.name {
     margin-left: 320px;
-    display: flex;
     text-align: center;
     height: 0;
 }
