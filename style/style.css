@@ -67,7 +67,7 @@ section.info > p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 section.perfil {
