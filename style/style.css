@@ -6,19 +6,18 @@ body {
 main {
     background-color: rgb(255, 255, 255);
     max-width: 960px;
-    min-height: 1200px;
     width: 100%;
     margin: auto;
+    align-items: stretch;
 }
 
 .container {
-    height: 100vh;
     width: 300px;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    background-color: black;
-    justify-content: space-evenly;
-    align-items: stretch;
+    flex-shrink: 0; 
+    min-height: 100%; 
 }
 
 section.container:first-of-type, 
@@ -171,16 +170,20 @@ h3 {
 }
 
 div.name {
-    text-align: center;
-    height: 0;
+    margin-top: 20px;
+    margin-bottom: -89px;
+    margin-right: -300px;
+    display: flex;
+    justify-content: center;
 }
 
 div.name > h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.2em;
-    padding: 95px;
-    margin-left: 300px;
-
+    padding-top: 30px;
+    text-align: center;
+    margin: 0; 
+    color: #000;
 }
 
 a {
@@ -228,22 +231,25 @@ footer {
     }
 
     div.name {
-        width: 100%;
-        height: 100px !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        div.name {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin: 20px 0 !important;
+        position: static !important;
+        background: transparent !important;
 
     }
 
-    div.name > h1 {
-        width: 100%;
-        font-size: 1.3em;
-        text-align: center;
-        margin: 0;
+    div.name h1 {
+        color: #000 !important; 
+        font-size: 2em !important;
+        text-align: center !important;
+        width: 100% !important;
+        display: block !important;
         
     }
 
