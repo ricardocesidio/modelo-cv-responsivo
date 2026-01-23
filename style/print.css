@@ -1,0 +1,82 @@
+@media print {
+
+    * {
+        -webkit-print-color-adjust: exact !important; 
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    body {
+        background: white !important;
+        color: black !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    main {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        display: block !important;
+    }
+
+    .container, 
+    .container2,
+    section.info,
+    section.perfil,
+    section.education,
+    section.expe {
+        width: 100% !important;
+        margin: 10px 0 !important; 
+        position: static !important;
+        height: auto !important;
+        min-height: 0 !important;
+        display: block !important;
+    }
+
+    .container, 
+    section.info, 
+    section.perfil, 
+    section.education {
+        background-color: #f2f2f2 !important; 
+        border: 1px solid #ddd !important;
+    }
+
+    section.info > p, 
+    section.perfil > p, 
+    section.education > p,
+    div.frases,
+    .container h1, h2, h3 {
+        color: black !important;
+    }
+
+    
+    section.container > img {
+        max-width: 200px !important;
+        margin: 40 auto 20px !important;
+    }
+
+    
+    div.frases1, div.frases2, div.frases3, div.frases4 {
+        height: auto !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        color: black !important;
+    }
+
+    a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
+
+    
+    footer, .no-print {
+        display: none !important;
+    }
+
+    
+    h2 {
+        page-break-after: avoid;
+    }
+}

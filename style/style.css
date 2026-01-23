@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(188, 188, 188);
     margin: 0;
+    padding: 0;
 }
 
 main {
@@ -298,4 +299,5 @@ footer {
         padding-left: 20px;
         margin: 0 auto;
     }
+}
 }
