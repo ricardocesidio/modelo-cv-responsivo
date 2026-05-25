@@ -1,0 +1,147 @@
+:root {
+  --color-body-bg: #bcbcbc;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #000000;
+  --color-sidebar-card-bg: #313131;
+  --color-sidebar-border: #282828;
+  --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-heading: #4c4c4c;
+  --color-accent: #7d7dbb;
+  --color-section-title-bg: #eaeaea;
+  --color-link: #7d7dbb;
+  --color-title-info-bg: #2c3e50;
+  --color-title-perfil-bg: #34495e;
+  --color-title-skills-bg: #2d3e3f;
+  --color-title-edu-bg: #3a2e3e;
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-heading: Arial, Helvetica, sans-serif;
+  --font-name: Arial, Helvetica, sans-serif;
+  --font-size-multiplier: 1;
+}
+
+.theme-classic-dark {
+  --color-body-bg: #bcbcbc;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #000000;
+  --color-sidebar-card-bg: #313131;
+  --color-sidebar-border: #282828;
+  --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-heading: #4c4c4c;
+  --color-accent: #7d7dbb;
+  --color-section-title-bg: #eaeaea;
+  --color-link: #7d7dbb;
+  --color-title-info-bg: #2c3e50;
+  --color-title-perfil-bg: #34495e;
+  --color-title-skills-bg: #2d3e3f;
+  --color-title-edu-bg: #3a2e3e;
+}
+
+.theme-modern-blue {
+  --color-body-bg: #e8f0f8;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #1a365d;
+  --color-sidebar-card-bg: #2a4a7f;
+  --color-sidebar-border: #3a5a9f;
+  --color-text-light: #ffffff;
+  --color-text-dark: #1a202c;
+  --color-heading: #2a4a7f;
+  --color-accent: #3182ce;
+  --color-section-title-bg: #ebf4ff;
+  --color-link: #3182ce;
+  --color-title-info-bg: #1e4a6e;
+  --color-title-perfil-bg: #2a5a8a;
+  --color-title-skills-bg: #1e5a5a;
+  --color-title-edu-bg: #3a4a6e;
+}
+
+.theme-emerald {
+  --color-body-bg: #ecfdf5;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #064e3b;
+  --color-sidebar-card-bg: #065f46;
+  --color-sidebar-border: #047857;
+  --color-text-light: #ffffff;
+  --color-text-dark: #111827;
+  --color-heading: #065f46;
+  --color-accent: #059669;
+  --color-section-title-bg: #d1fae5;
+  --color-link: #059669;
+  --color-title-info-bg: #065f46;
+  --color-title-perfil-bg: #047857;
+  --color-title-skills-bg: #03644a;
+  --color-title-edu-bg: #0d6e52;
+}
+
+.theme-burgundy {
+  --color-body-bg: #fdf2f4;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #4a1a2e;
+  --color-sidebar-card-bg: #5e2238;
+  --color-sidebar-border: #7a2d46;
+  --color-text-light: #ffffff;
+  --color-text-dark: #1a0a12;
+  --color-heading: #5e2238;
+  --color-accent: #9b2c4a;
+  --color-section-title-bg: #fce7ef;
+  --color-link: #9b2c4a;
+  --color-title-info-bg: #5e2238;
+  --color-title-perfil-bg: #7a2d46;
+  --color-title-skills-bg: #6a2640;
+  --color-title-edu-bg: #4a1a2e;
+}
+
+.theme-minimal {
+  --color-body-bg: #f5f5f5;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #1a1a1a;
+  --color-sidebar-card-bg: #2a2a2a;
+  --color-sidebar-border: #3a3a3a;
+  --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-heading: #333333;
+  --color-accent: #555555;
+  --color-section-title-bg: #eeeeee;
+  --color-link: #555555;
+  --color-title-info-bg: #2a2a2a;
+  --color-title-perfil-bg: #333333;
+  --color-title-skills-bg: #3a3a3a;
+  --color-title-edu-bg: #2a2a2a;
+}
+
+.theme-soft-gray {
+  --color-body-bg: #eaeaea;
+  --color-page-bg: #fafafa;
+  --color-sidebar-bg: #2d2d2d;
+  --color-sidebar-card-bg: #404040;
+  --color-sidebar-border: #505050;
+  --color-text-light: #f0f0f0;
+  --color-text-dark: #222222;
+  --color-heading: #404040;
+  --color-accent: #6b7280;
+  --color-section-title-bg: #f3f4f6;
+  --color-link: #6b7280;
+  --color-title-info-bg: #404040;
+  --color-title-perfil-bg: #4a4a4a;
+  --color-title-skills-bg: #505050;
+  --color-title-edu-bg: #3a3a3a;
+}
+
+.theme-creative-purple {
+  --color-body-bg: #f5f3ff;
+  --color-page-bg: #ffffff;
+  --color-sidebar-bg: #2d1b4e;
+  --color-sidebar-card-bg: #3d2569;
+  --color-sidebar-border: #4d2f84;
+  --color-text-light: #ffffff;
+  --color-text-dark: #1a0a2e;
+  --color-heading: #3d2569;
+  --color-accent: #7c3aed;
+  --color-section-title-bg: #ede9fe;
+  --color-link: #7c3aed;
+  --color-title-info-bg: #3d2569;
+  --color-title-perfil-bg: #4d2f84;
+  --color-title-skills-bg: #3a2569;
+  --color-title-edu-bg: #2d1b4e;
+}
